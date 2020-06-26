@@ -12,3 +12,5 @@
         counter: state.counter + props.increment
       };
     });
+
+# React Getting Started Docs: https://reactjs.org/docs/handling-events.html
