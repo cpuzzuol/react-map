@@ -13,4 +13,23 @@
       };
     });
 
+
+# Logical && operator
+
+    {unreadMessages.length > 0 &&
+        <h2>
+            You have {unreadMessages.length} unread messages.
+        </h2>
+    }
+
+    - Same as saying if(unreadMessages.length > 0)
+    - It works because in JavaScript, true && expression always evaluates to expression, and false && expression always evaluates to false.
+
+# Composition
+    Similar to Vue slots
+    https://reactjs.org/docs/composition-vs-inheritance.html
+
+# REDUX FOR BEGINNERS:
+    https://www.valentinog.com/blog/redux/
+
 # React Getting Started Docs: https://reactjs.org/docs/handling-events.html

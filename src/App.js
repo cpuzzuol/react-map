@@ -3,11 +3,13 @@ import React from 'react';
 import './App.css';
 import Bob from './Bob';
 import Header from "./Header";
+import Address from "./Address";
 
 function App(props) {
     return (
         <div className="App">
             <Header />
+            <Address />
             <Bob/>
         </div>
     );
